@@ -1,0 +1,104 @@
+styles.css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  .header {
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .navbar a {
+    margin:  10px;
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .navbar .btn {
+    background: #28a745;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  .hero {
+    text-align: center;
+    background: #28a745;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .how, .offer {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .tabs .tab {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .steps .step {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .services .service {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .quick-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .quick-links ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .subscribe-form input, .subscribe-form button {
+    margin: 5px;
+    padding: 10px;
+  }
+  /* for tablet screen */
+@media(max-width:760px){
+  *{
+      background-color: #28a745;
+      flex-direction: column;
+  }
+  }
+
+/* for mobile screen */
+@media(max-width:480px){
+  *{
+      background-color: #28a745;
+      flex-direction: column;
+
+
+  }
+
+}
+ 
